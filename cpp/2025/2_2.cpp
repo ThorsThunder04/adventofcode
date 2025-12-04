@@ -15,14 +15,6 @@ int n_digits(long long n) {
     return m;
 }
 
-bool rep_num(long long n) {
-    int m = n_digits(n) / 2;
-
-    // check if first half is equal to second half
-    //* is there a bitwise op to figure this out easier ?
-    return ((n % (int)pow(10, m)) == (n / (int)pow(10, m)));
-}
-
 
 void decomp_range(string s, long long range[2]) {
     // turn given string into stream
