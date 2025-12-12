@@ -1,6 +1,7 @@
 FLAGS=-Wall -lm
 CXX=g++
 
+
 .cpp:
 	$(CXX) $(FLAGS) $@.cpp -o $@
 
