@@ -16,6 +16,7 @@ int hm_adj(vector<string> &grid, int r, int c) {
 
     // I decided to hard code this just cuz I know that it will defo work like this
     // My iterative version felt a little overcomplicated anyway tbh
+    // UPDATE from 1 month later me: WHYYY DID I DOO IT LIKE THIS ???
 
     if (r > 0) {
         if (c > 0 && grid[r-1][c-1] == tc) num_adj_rolls++;
